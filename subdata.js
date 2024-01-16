@@ -1,0 +1,121 @@
+var portfolio_details_datas = [
+    {
+        "portfolio__details_two_title" : "Here goes title1",
+        "portfolio__details_two_text-1" : "Here goes text1",
+        "portfolio__details_two_text-2" : "Here goes text2",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2",
+        "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-1-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-1-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-1-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-1-1.jpg",
+    },
+    {
+        "portfolio__details_two_title" : "Here goes title2",
+        "portfolio__details_two_text-1" : "Here goes text1",
+        "portfolio__details_two_text-2" : "Here goes text2",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2",
+        "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-2-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-2-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-2-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-2-1.jpg",
+    },
+    {
+        "portfolio__details_two_title" : "Here goes title3",
+        "portfolio__details_two_text-1" : "Here goes text1",
+        "portfolio__details_two_text-2" : "Here goes text2",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2",
+        "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-3-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-3-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-3-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-3-1.jpg",
+    },
+    {
+        "portfolio__details_two_title" : "Here goes title4",
+        "portfolio__details_two_text-1" : "Here goes text1",
+        "portfolio__details_two_text-2" : "Here goes text2",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2",
+        "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-4-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-4-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-4-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-4-1.jpg",
+    },
+    {
+        "portfolio__details_two_title" : "Here goes title5",
+        "portfolio__details_two_text-1" : "Here goes text1",
+        "portfolio__details_two_text-2" : "Here goes text2",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2",
+        "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-5-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-5-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-5-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-5-1.jpg",
+    },
+    {
+        "portfolio__details_two_title" : "Here goes title1",
+        "portfolio__details_two_text-1" : "Here goes text1",
+        "portfolio__details_two_text-2" : "Here goes text2  666",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2",
+        "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-6-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-6-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-6-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-6-1.jpg",
+    },
+    {
+        "portfolio__details_two_title" : "Here goes title1",
+        "portfolio__details_two_text-1" : "Here goes text1",
+        "portfolio__details_two_text-2" : "Here goes text2",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2 777",
+        "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-7-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-7-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-7-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-7-1.jpg",
+    },
+    {
+        "portfolio__details_two_title" : "Here goes title1",
+        "portfolio__details_two_text-1" : "Here goes text1",
+        "portfolio__details_two_text-2" : "Here goes text2",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2",
+        "portfolio__details_two_date" : "27 March, 2022 888",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-8-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-8-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-8-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-8-1.jpg",
+    },
+    {
+        "portfolio__details_two_title" : "Here goes title1",
+        "portfolio__details_two_text-1" : "Here goes text1 999",
+        "portfolio__details_two_text-2" : "Here goes text2",
+        "portfolio__details_two_client" : "ThemeOri agency1",
+        "portfolio__details_two_category" : "Brochure Design2",
+        "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-9-1.jpg",
+        "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-9-1.jpg",
+        "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-9-1.jpg",
+        "portfolio__details_two_img4" : "assets/img/portfoli/portfolio-9-1.jpg",
+    }
+];
+
+const details_index = parseInt(localStorage.getItem("portfolio__area-two-current-index"));
+const content_data = portfolio_details_datas[details_index];
+for (const key in content_data) {
+    const element = content_data[key];
+    if (key.substring(0, key.length - 1).endsWith("_img")) {
+        document.getElementById(key).src = element;
+    } else {
+        document.getElementById(key).innerText = element;
+    }
+}
