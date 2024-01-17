@@ -412,8 +412,6 @@ Theme Btn CSS
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   font-size: 42px;
   line-height: 55px;
-  padding: auto;
-  padding-top: 20px;
   padding-left: 6px;
 }
 
@@ -4701,7 +4699,7 @@ Menu Bar
   justify-content: space-between;
 }
 .header__area-box-logo a {
-  display: inline-block;
+  display: flex;
 }
 .header__area-box-logo a img {
   max-width: 60px;
@@ -4982,7 +4980,7 @@ Menu Box CSS
   margin-bottom: 30px;
 }
 .header__area-box-sidebar-popup-logo a {
-  display: inline-block;
+  display: flex;
 }
 .header__area-box-sidebar-popup-logo a img {
   max-width: 60px;
