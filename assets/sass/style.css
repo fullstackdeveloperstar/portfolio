@@ -407,6 +407,16 @@ Theme Btn CSS
   margin-bottom: 6px;
 }
 
+.logo-text {
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-size: 42px;
+  line-height: 55px;
+  padding: auto;
+  padding-top: 20px;
+  padding-left: 6px;
+}
+
 @-webkit-keyframes rotate {
   100% {
     transform: rotate(90deg);
@@ -4200,8 +4210,8 @@ Skill
   margin-bottom: 80px;
 }
 .skill__area-content p {
-  font-size: 18pt;
-  line-height: 36px;
+  /* font-size: 18pt; */
+  /* line-height: 36px; */
   text-transform: none;
 }
 /*==========================================================================
@@ -4694,7 +4704,7 @@ Menu Bar
   display: inline-block;
 }
 .header__area-box-logo a img {
-  max-width: 180px;
+  max-width: 60px;
   z-index: 999;
   position: relative;
 }
@@ -4975,7 +4985,7 @@ Menu Box CSS
   display: inline-block;
 }
 .header__area-box-sidebar-popup-logo a img {
-  max-width: 180px;
+  max-width: 60px;
 }
 .header__area-box-sidebar-popup p {
   color: #9FA0A1;
@@ -5259,7 +5269,7 @@ Mean Menu Css
     padding: 80px 30px;
   }
   .header__area-box-logo a img {
-    max-width: 175px;
+    max-width: 55px;
   }
   .header__area-box-logo.center a {
     padding: 34px 20px 0px 20px;
@@ -5273,7 +5283,7 @@ Mean Menu Css
     max-width: 100px;
   }
   .header__area-box-sidebar-popup-logo a img {
-    max-width: 175px;
+    max-width: 55px;
   }
 }
 .error__page {
