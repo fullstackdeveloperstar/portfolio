@@ -6,6 +6,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency1",
         "portfolio__details_two_category" : "Brochure Design2",
         "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_url" : "https://worksimply.com/",
+        "portfolio__details_two_sitename" : "worksimply.com",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-1-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-1-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-1-3.jpg",
@@ -18,6 +20,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency1",
         "portfolio__details_two_category" : "Brochure Design2",
         "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_url" : "",
+        "portfolio__details_two_sitename" : "",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-2-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-2-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-2-3.jpg",
@@ -30,6 +34,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency1",
         "portfolio__details_two_category" : "Brochure Design2",
         "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_url" : "",
+        "portfolio__details_two_sitename" : "",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-3-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-3-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-3-3.jpg",
@@ -42,6 +48,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency1",
         "portfolio__details_two_category" : "Brochure Design2",
         "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_url" : "",
+        "portfolio__details_two_sitename" : "",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-4-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-4-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-4-3.jpg",
@@ -54,6 +62,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency5",
         "portfolio__details_two_category" : "Brochure Design5",
         "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_url" : "",
+        "portfolio__details_two_sitename" : "",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-5-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-5-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-5-3.jpg",
@@ -66,6 +76,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency1",
         "portfolio__details_two_category" : "Brochure Design2",
         "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_url" : "",
+        "portfolio__details_two_sitename" : "",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-6-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-6-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-6-3.jpg",
@@ -78,6 +90,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency1",
         "portfolio__details_two_category" : "Brochure Design2 777",
         "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_url" : "",
+        "portfolio__details_two_sitename" : "",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-7-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-7-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-7-3.jpg",
@@ -90,6 +104,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency1",
         "portfolio__details_two_category" : "Brochure Design2",
         "portfolio__details_two_date" : "27 March, 2022 888",
+        "portfolio__details_two_url" : "",
+        "portfolio__details_two_sitename" : "",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-8-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-8-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-8-3.jpg",
@@ -102,6 +118,8 @@ var portfolio_details_datas = [
         "portfolio__details_two_client" : "ThemeOri agency1",
         "portfolio__details_two_category" : "Brochure Design2",
         "portfolio__details_two_date" : "27 March, 2022",
+        "portfolio__details_two_url" : "",
+        "portfolio__details_two_sitename" : "",
         "portfolio__details_two_img1" : "assets/img/portfoli/portfolio-9-1.jpg",
         "portfolio__details_two_img2" : "assets/img/portfoli/portfolio-9-2.jpg",
         "portfolio__details_two_img3" : "assets/img/portfoli/portfolio-9-3.jpg",
@@ -113,7 +131,11 @@ const details_index = parseInt(localStorage.getItem("portfolio__area-two-current
 const content_data = portfolio_details_datas[details_index];
 for (const key in content_data) {
     const element = content_data[key];
-    if (key.substring(0, key.length - 1).endsWith("_img")) {
+    if (key == "portfolio__details_two_url") {
+        // document.getElementById("portfolio__details_two_page_link").href = element;
+    } else if (key == "portfolio__details_two_sitename") {
+        // document.getElementById("portfolio__details_two_page_link").innerHTML = element;
+    } else if (key.substring(0, key.length - 1).endsWith("_img")) {
         document.getElementById(key).src = element;
     } else {
         document.getElementById(key).innerText = element;

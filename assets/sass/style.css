@@ -413,6 +413,7 @@ Theme Btn CSS
   font-size: 42px;
   line-height: 55px;
   padding-left: 6px;
+  color: white;
 }
 
 @-webkit-keyframes rotate {
