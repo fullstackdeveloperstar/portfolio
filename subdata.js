@@ -212,7 +212,7 @@ var portfolio_details_datas = [
     {
         "portfolio__details_two_title" : "MBD Boulevard",
         "portfolio__details_two_text-1" : "Future of Shopping with our AI NFT Marketplace",
-        "portfolio__details_two_text-2" : "Discover the most outstanding NTFs in all topics of life. Create your NTFs and sell them.",
+        "portfolio__details_two_text-2" : "Discover the most outstanding NFTs in all topics of life. Create your NTFs and sell them.",
         // "portfolio__details_two_client" : "ThemeOri agency1",
         // "portfolio__details_two_category" : "Brochure Design2",
         // "portfolio__details_two_date" : "27 March, 2022",
