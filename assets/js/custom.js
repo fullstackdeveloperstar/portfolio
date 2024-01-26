@@ -229,7 +229,7 @@
 
 // My add //
 
-for (let i = 0; i < 16; i ++) {
+for (let i = 0; i < 18; i ++) {
     $('#portfolio__area-two-item-content_link' + (i+1)).on("click", function() {
 		localStorage.setItem("portfolio__area-two-current-index", i);
     })
